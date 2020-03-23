@@ -58,7 +58,7 @@ Accuracy                     : 83.33%
 Loss                         : 0.07
 Precision                    : 82%
 Recall (COVID-19)            : 86.11% (Para as classes positivas)
-Specificity             		 : 80.56%
+Specificity                  : 80.56%
 </pre>
 
 ##### Sample Output:

@@ -64,21 +64,21 @@ Recall (Pneumonia)           : 95.64% (Para as classes positivas)
 
 ##### Sample Output:
 <kbd>
-<img src=https://github.com/toniesteves/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/blob/master/demo/sample/sample.png>
+<img src=https://github.com/toniesteves/covid19-chest-x-ray-detection/blob/master/data/output/figures/sample.png>
 </kbd>
 
 <kbd>
-<a href=https://github.com/toniesteves/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/blob/master/demo/images/result.png>See More Images</a>
+<a href=https://github.com/toniesteves/covid19-chest-x-ray-detection/blob/master/data/output/figures/result.png>See More Images</a>
 </kbd>
 
 ##### Confusion Matrix:
 <kbd>
-<img src=https://github.com/toniesteves/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/blob/master/demo/report/CM.png alt="Confusion Matrix" width=800px height=600px>
+<img src=https://github.com/toniesteves/covid19-chest-x-ray-detection/blob/master/data/output/figures/CM.png alt="Confusion Matrix" width=800px height=600px>
 </kbd>
 
 ##### ROC Curve:
 <kbd>
-<img src=https://github.com/toniesteves/Pneumonia-Detection-from-Chest-X-Ray-Images-with-Deep-Learning/blob/master/demo/report/ROC.png alt="ROC Curve" width=800px height=600px>
+<img src=https://github.com/toniesteves/covid19-chest-x-ray-detection/blob/master/data/output/figures/ROC.png alt="ROC Curve" width=800px height=600px>
 </kbd>
 
 

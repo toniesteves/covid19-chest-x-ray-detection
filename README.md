@@ -16,33 +16,32 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 
 #### Code
 <pre>
-GitHub Link          : <a href=https://github.com/toniesteves/Detection-of-Pneumonia-from-Chest-X-Ray-Images>Detection of Pneumonia from Chest X-Ray Images(GitHub)</a>
-Statistical Analysis : <a href=https://github.com/toniesteves/chest-x-ray-pneumonia-inference>Pneumonia from Chest X-Ray Images Analysis inference(GitHub)</a>
+GitHub Link          : <a href=https://github.com/toniesteves/covid19-chest-x-ray-detection>COVID-19 Detection from Chest X-Ray Images </a>
 Linkedin             : <a href=https://www.linkedin.com/in/toniesteves/>Antonio Esteves</a>
 </pre>
 
-#### Dataset
+#### Datasets
 <pre>
 Dataset Name     : Chest X-Ray Images (Pneumonia)
 Dataset Link     : <a href=https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia>Chest X-Ray Images (Pneumonia) Dataset (Kaggle)</a>
                  : <a href=https://data.mendeley.com/datasets/rscbjbr9sj/2>Chest X-Ray Images (Pneumonia) Dataset (Original Dataset - No Labeled)</a>
-Original Paper   : <a href=https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5>Identifying Medical Diagnoses and Treatable Diseases by Image-Based Deep Learning</a>
-                   (Daniel S. Kermany, Michael Goldbaum, Wenjia Cai, M. Anthony Lewis, Huimin Xia, Kang Zhang)
-                   https://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
+Dataset Name     : COVID-19 image data collection
+Dataset Link     : <a href=https://github.com/ieee8023/covid-chestxray-dataset>COVID-19 image data collection (Original Dataset)</a>
+
 </pre>
 
 <pre>
 <b>Detalhes do Dataset</b>
-Nome do Dataset              : Imagens de raio X de toráx (Pneumonia)
+Nome do Dataset              : Imagens de raio X de toráx (COVID-19)
 Número de Classes            : 2
-Número/Tamanho das imagens   : Total      : 5856 (1.15 Gigabyte (GB))
-                               Treino     : 5216 (1.07 Gigabyte (GB))
-                               Validação  : 320  (42.8 Megabyte (MB))
-                               Teste      : 320  (35.4 Megabyte (MB))
+Número/Tamanho das imagens   : Total      : 178 (98.8 Megabyte (MB))
+                               Treino     : 76  (51.7 Megabyte (MB))
+                               Validação  : 30  (9.1  Megabyte (MB))
+                               Teste      : 72  (38.4 Megabyte (MB))
 
 <b>Parâmetros do Modelo</b>
 Machine Learning Library     : Keras
-Base Model                   : InceptionV3 && Custom Deep Convolutional Neural Network
+Base Model                   : Custom Deep Convolutional Neural Network
 Otimizadores                 : Adam
 Função de Perda              : categorical_crossentropy
 
@@ -50,16 +49,16 @@ Função de Perda              : categorical_crossentropy
 <b>Parâmetros de Treino</b>
 Batch Size                   : 64
 Número of Épocas             : 100
-Tempo de Treino              : 1 Hours
+Tempo de Treino              : 40 Minutes
 
 <b>Saída (Prediction/ Recognition / Classification Metrics)</b>
 <b>Teste</b>
-F1-Score                     : 92.79%
-Accuracy                     : 90.71%
-Loss                         : 0.25
-Precision                    : 90.10%
-Recall (Pneumonia)           : 95.64% (Para as classes positivas)
-<!--Specificity             : -->
+F1-Score                     : 84.79%
+Accuracy                     : 83.33%
+Loss                         : 0.07
+Precision                    : 82%
+Recall (COVID-19)            : 86.11% (Para as classes positivas)
+Specificity             		 : 80.56%
 </pre>
 
 ##### Sample Output:
@@ -90,7 +89,7 @@ Libraries               : Keras, TensorFlow, Inception, ImageNet
 
 #### Dates
 <pre>
-Duration                : October 2019 - Current
-Current Version         : v1.0.0.5
-Last Update             : 29.06.2019
+Duration                : March 2020 - Current
+Current Version         : v1.0.0.0
+Last Update             : 23.03.2020
 </pre>

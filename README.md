@@ -1,4 +1,4 @@
-## Pneumonia Detection from Chest X-Ray Images using Transfer Learning                                             
+## COVID-19 Detection from Chest X-Ray Images                                      
 
 <pre>
 Domain             : Computer Vision, Machine Learning

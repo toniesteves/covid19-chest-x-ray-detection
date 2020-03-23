@@ -9,9 +9,7 @@ Application        : Image Recognition, Image Classification, Medical Imaging
 
 ### Description
 <pre>
-1. Detecção de Pneumonia pediátrica a partir de imagens de raios X de tórax utlizando uma Deep Convolutional Neural Network otimizada e retreinando um modelo pré-treinado  “InceptionV3” com 5856 imagens de raios X (1.15GB).
-2. For retraining removed output layers, freezed first few layers and fine-tuned model for two new label classes (Pneumonia and Normal).
-3. With Custom Deep Convolutional Neural Network attained testing accuracy 89.14% and loss 0.31.
+1. Detecção de COVID-19  a partir de imagens de raios X de tórax utlizando uma Deep Convolutional Neural Network otimizada.
 </pre>
 
 #### Code
